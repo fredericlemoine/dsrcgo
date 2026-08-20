@@ -1,0 +1,35 @@
+This project is a Go port of DSRC (DNA Sequence Reads Compressor),
+derived from and built to be byte-exact interoperable with the
+original C++ implementation.
+
+Original project
+-----------------
+DSRC — DNA Sequence Reads Compressor
+Authors: Lucas Roguski and Sebastian Deorowicz
+Homepage: http://sun.aei.polsl.pl/dsrc
+Source:   https://github.com/refresh-bio/DSRC
+License:  GNU General Public License v2
+
+Please cite the following papers when using DSRC (or this port):
+
+  Roguski, L., Deorowicz, S. (2014) DSRC 2: Industry-oriented
+  compression of FASTQ files, Bioinformatics, 30(15):2213-2215.
+  https://doi.org/10.1093/bioinformatics/btu208
+
+  Deorowicz, S., Grabowski, Sz. (2011) Compression of DNA sequences
+  in FASTQ format, Bioinformatics, 27(6):860-862.
+  https://doi.org/10.1093/bioinformatics/btr014
+
+This Go port
+------------
+This code was produced with the assistance of Claude Code by reading
+and translating the original DSRC C++ source (algorithms, data
+structures, and — for the internal/realdsrc package specifically —
+its exact on-disk file format) into Go. See README.md for a detailed
+package-by-package account of what was ported, what was verified
+against real DSRC output, and what was intentionally left out of
+scope.
+
+As a derivative work of GPL-2-licensed software, this project is
+licensed under the GNU General Public License v2 as well (LICENSE
+file to be added).

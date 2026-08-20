@@ -103,3 +103,7 @@ Also not reproduced, deliberately, because reproducing it would mean matching a 
     ├── archive/         Real DSRC file container format
     └── realdsrc/       The compression pipeline: metadata, DNA, quality, tags, block assembly
 ```
+
+## License and attribution
+
+This is a derivative work of [DSRC](https://github.com/refresh-bio/DSRC) (© Lucas Roguski and Sebastian Deorowicz), licensed GNU GPL v2 — see [NOTICE](NOTICE) for full attribution and the papers to cite.
